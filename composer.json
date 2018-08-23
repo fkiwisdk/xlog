@@ -1,0 +1,6 @@
+{
+     "name":"fkiwisdk/xlog",
+     "autoload":{
+        "psr-4": {"xlog\\": "src/"}     
+     }
+}
