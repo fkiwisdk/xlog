@@ -1,6 +1,22 @@
 {
-     "name":"fkiwisdk/xlog",
-     "autoload":{
-        "psr-4": {"xlog\\": "src/"}     
-     }
+    "name":"fkiwisdk/xlog",
+    "autoload":{
+        "psr-4": {"xlog\\": "src/"}
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://composer.fkiwi.com"
+        },
+        {
+            "packagist": false
+        }
+    ],
+    "config":{
+         "secure-http": false
+    },
+    "require": {
+        "analog/analog": "^1.0"
+    }
 }
+
