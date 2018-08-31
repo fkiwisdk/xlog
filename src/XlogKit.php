@@ -1,6 +1,6 @@
 <?php
 
-namespace xlog;
+namespace Xlog;
 
 // require_once __DIR__ . '/../vendor/autoload.php';
 

@@ -1,7 +1,7 @@
 {
-    "name":"fkiwisdk/xlog",
+    "name":"fkiwisdk/Xlog",
     "autoload":{
-        "psr-4": {"xlog\\": "src/"}
+        "psr-4": {"Xlog\\": "src/"}
     },
     "repositories": [
         {
